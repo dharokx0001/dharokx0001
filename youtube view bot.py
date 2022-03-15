@@ -1,7 +1,7 @@
 #install python
 #windows cmd: py -m pip install selenium
 #download the latest mozilla gecko driver from github
-#extract the mozilla gecko driver and add the path to the geckodriver.exe to the PATH in the windows system environment variables
+#extract the mozilla gecko driver and add the path of the geckodriver.exe to PATH in the windows system environment variables
 #restart your computer
 
 #disclaimer: do not use this software for illegal activity
