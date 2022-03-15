@@ -36,7 +36,7 @@ for i in range(int((input("add view count: ")))):
         counter += 1
         print("count added:", counter)
         driver.quit()
-    except: #if google cookies consent overlay confirmation button is not present, handles activation of the play-button of the video
+    except: #if google cookies consent overlay confirmation button is not present, activate the video play-button
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR,".ytp-play-button"))).click()
         time.sleep(31) #watch time required for a youtube video to gain a view (in seconds)
         counter += 1
