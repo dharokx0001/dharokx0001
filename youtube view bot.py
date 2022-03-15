@@ -26,7 +26,7 @@ for i in range(int((input("add view count: ")))):
     options.headless = True #prevents the gecko driver browser from appearing
     profile = webdriver.FirefoxProfile()
     profile.set_preference("media.volume_scale", "0.0")
-    driver = webdriver.Firefox(firefox_profile=profile, options=options, executable_path=r'C:\Users\0\Documents\geckodriver-v0.30.0-win64\geckodriver.exe') #copy and paste your PATH to the geckodriver.exe
+    driver = webdriver.Firefox(firefox_profile=profile, options=options, executable_path=r'C:\Users\0\Documents\geckodriver-v0.30.0-win64\geckodriver.exe') #copy and paste your path of the geckodriver.exe
     if (counter == 0):
         print("youtube view bot is running, please wait.")
     driver.get(url) #launches the url with the firefox gecko driver
